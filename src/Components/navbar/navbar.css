@@ -1,0 +1,44 @@
+.body{
+    background-color: aqua;
+    width:100%;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100% !important;
+
+}
+.nav h1{
+    font-weight: 800;
+   
+}
+ul{
+    font-size: 2rem;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+li{
+margin-left: 2.5rem;
+}
+Button{
+   border-radius: 1rem;
+    margin-left: 2rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    height: 30px;
+    width: 150px;
+}
+.Emp-login{
+    background-color: black;
+    color: aliceblue;
+}
+.Signup{
+    background-color: black;
+    color: white;
+}
+.Login{
+    background: transparent;
+}

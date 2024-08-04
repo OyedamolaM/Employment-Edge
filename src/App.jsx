@@ -12,10 +12,8 @@ function App() {
     <Navbar/>
    
     {/* Let your routes come in here */}
-    
-    <h1>Employment edge!!!</h1>
-   
     <Landing/>
+    
     </BrowserRouter>
     
 

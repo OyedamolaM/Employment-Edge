@@ -1,6 +1,8 @@
 import React from 'react'
 import './landing.css'
 import PICTURE from '../../assets/Icons/happyJobbero.png'
+import APPSTORE from '../../assets/Icons/app.png'
+import PLAYSTORE from '../../assets/Icons/play.png'
 
 const Landing = () => {
   return (
@@ -10,9 +12,10 @@ const Landing = () => {
         <h1 className='text h1-tag'>Job Search Simplified</h1>
         <h5 className='text h5-tag'>One Platform, Countless Opportunities, Guaranteed</h5>
 
-        <form>
-        <input className='search-bar' type="text" />
-        </form>
+     
+        <input className='search-bar' type="text" placeholder='Enter location...'  />
+        <button className='explore'>Explore Now</button>
+     
 
         <div className='handle3Divs'>
             <div className="hug first-div">
@@ -32,8 +35,14 @@ const Landing = () => {
           your career advancement.</h6>
 
      
-        <img className='jobbero-picture' src={PICTURE} alt="" />
+        <img className='jobbero-picture' src={PICTURE} alt="jobbero" />
 
+        <div className='profile-card'></div>
+
+      <div className='play-app'>
+        <img className='app-picture' src={APPSTORE} alt="" />
+        <img className='play-picture' src={PLAYSTORE} alt="" />
+        </div>
       </div>
     </>
   )

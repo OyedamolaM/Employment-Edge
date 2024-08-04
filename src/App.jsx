@@ -13,7 +13,7 @@ function App() {
    
     {/* Let your routes come in here */}
     <Landing/>
-    
+
     </BrowserRouter>
     
 
